@@ -103,14 +103,15 @@ body {
     margin-right: 31px;        /*wiping out margin in header. what's contained in the menu*/
     margin-top: 0px;
     margin-bottom: 0px;/*have to add padding. right part is currently stuck all the way to right*/
-                       /*took out float:right;*/
+    float: right;                   /*took out float:right;*/
 }
 
 #banner{
-    height:363px;
-    background-image: url("../images/happypeople - Copy.PNG");
-    bacgkround-repeat: no-repeat;
-    /*background-position:*/
+    height: 363px;
+    background-image: url("../images/happypeople_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     line-height: 363px;
-    opacity: 50%;           /*transparecy settings*/
+    filter: alpha(opacity=50);
+    opacity: 0.5;           /*transparecy settings*/
 }
