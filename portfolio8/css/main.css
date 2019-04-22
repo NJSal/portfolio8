@@ -87,3 +87,30 @@ body {
 #footer {
     clear: both;
 }
+#header{
+    height: 200px;
+    line-height: 200px;             /*fixes text so it's centered. if lineheight = height container
+                                    /*one line vertically: 553px*/
+}
+/*
+    li = list items. #header (the list inside the header do w/e inside this
+ */
+#header li{
+    display: inline;
+}
+
+#header ul{
+    margin-right: 31px;        /*wiping out margin in header. what's contained in the menu*/
+    margin-top: 0px;
+    margin-bottom: 0px;/*have to add padding. right part is currently stuck all the way to right*/
+                       /*took out float:right;*/
+}
+
+#banner{
+    height:363px;
+    background-image: url("../images/happypeople - Copy.PNG");
+    bacgkround-repeat: no-repeat;
+    /*background-position:*/
+    line-height: 363px;
+    opacity: 50%;           /*transparecy settings*/
+}
