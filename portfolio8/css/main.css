@@ -118,10 +118,14 @@ body {
      */
 }
 
-bammer h1
+#hero
 {
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 60px;
+    left: 200px; 
+    height: 150 px;
+    width: 300 px;
+    background-color: grey;
 }
 
 /*lines 72-75 in layout.html file: took out h3-h6 information
