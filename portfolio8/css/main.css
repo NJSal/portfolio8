@@ -121,10 +121,10 @@ body {
 #hero
 {
     position: absolute;
-    top: 60px;
-    left: 200px; 
-    height: 150 px;
-    width: 300 px;
+    top: 100px;
+    left: 200px;
+    height: 150px;
+    width: 300px;
     background-color: grey;
 }
 
