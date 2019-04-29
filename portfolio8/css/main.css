@@ -113,7 +113,9 @@ body {
     background-size: cover;
     line-height: 363px;
     filter: alpha(opacity=50);
-    opacity: 0.5;           /*transparecy settings*/
+/*    opacity: 0.5;           *transparecy settings*
+
+ */
 }
 
 
