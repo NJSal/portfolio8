@@ -106,18 +106,23 @@ body {
     float: right;                   /*took out float:right;*/
 }
 
-#banner{
+#banner {
     height: 363px;
     background-image: url("/images/happypeople.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 363px;
     filter: alpha(opacity=50);
-/*    opacity: 0.5;           *transparecy settings*
+    /*    opacity: 0.5;           *transparecy settings*
 
- */
+     */
 }
 
+bammer h1
+{
+    position: relative;
+    top: 0px;
+}
 
 /*lines 72-75 in layout.html file: took out h3-h6 information
         <h3>Heading 3</h3>
