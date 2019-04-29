@@ -108,10 +108,15 @@ body {
 
 #banner{
     height:363px;
-    background-image: url("../images/happypeople_resized.jpg");
+    background-image: url("/images/happypeople.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 363px;
     filter: alpha(opacity=50);
     opacity: 0.5;           /*transparecy settings*/
 }
+
+/*
+
+added comment
+ */
